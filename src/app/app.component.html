@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<div id="wrapper">
+  <app-sidebar></app-sidebar>
+  <div id="page-wrapper" class="gray-bg">
+    <app-header></app-header>
+    <app-breadcrambs></app-breadcrambs>
+    <router-outlet></router-outlet>
+    <div class="footer">
+      <div class="pull-right">
+        10GB of <strong>250GB</strong> Free.
+      </div>
+      <div>
+        <strong>Copyright</strong> Example Company &copy; 2016-2017
+      </div>
+    </div>
+  </div>
+</div>

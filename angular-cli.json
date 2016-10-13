@@ -15,9 +15,22 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+        "../node_modules/font-awesome/scss/font-awesome.scss",
+        "../node_modules/open-sans-fontface/open-sans.scss",
+        "../node_modules/animate.css/animate.css",
+        "assets/scss/style.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "js/jquery.metisMenu.js",
+        "js/jquery.slimscroll.js",
+        "js/inspinia.js",
+        "js/pace.min.js",
+        "js/evernote-sdk-minified.js",
+        "js/jsOAuth-1.3.7.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -38,7 +51,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "sass",
     "prefixInterfaces": false
   }
 }
